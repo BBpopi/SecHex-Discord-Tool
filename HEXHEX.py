@@ -11,13 +11,13 @@ bot = commands.Bot(command_prefix=None, intents=intents)
 
 
 def print_bot():
-    bot_name = bot.user.name if bot.user else "Allah"
-    print(f"[ > ] Logged in as \033[95m{bot_name}\033[0m")
+    Dyno = bot.user.name if bot.user else "Allah"
+    print(f"[ > ] Logged in as \033[95m{Dyno}\033[0m")
     print_server_count()
 
 
 def print_server_count():
-    bot_name = bot.user.name if bot.user else "Allah"
+    Dyno = Dyno#3861 if bot.user else "Allah"
     server_count = len(bot.guilds)
     print(f"[ > ] \033[95m{bot_name}\033[0m is on \033[95m{server_count}\033[0m Servers active.")
 
